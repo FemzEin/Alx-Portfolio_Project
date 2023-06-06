@@ -85,7 +85,7 @@ if __name__ == '__main__':
     print(get_all_orders(connection))
     # print(get_order_details(connection,4))
     # print(insert_order(connection, {
-    #     'customer_name': 'dhaval',
+    #     'customer_name': 'albert',
     #     'total': '500',
     #     'datetime': datetime.now(),
     #     'order_details': [
