@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 def get_uoms(connection):
     cursor = connection.cursor()
     query = ("select * from uom")
