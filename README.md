@@ -13,10 +13,10 @@
             <img src="logo.png" alt="Grocery Store Logo">
         </div>
         <ul class="menu">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="manage-product.html">Products</a></li>
-            <li><a href="order.html">Orders</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="https://femzein.github.io/Alx-Portfolio_Project/index.html" class="active">Home</a></li>
+            <li><a href="https://femzein.github.io/Alx-Portfolio_Project/manage-product.html">Products</a></li>
+            <li><a href="https://femzein.github.io/Alx-Portfolio_Project/order.html">Orders</a></li>
+            <li><a href="https://femzein.github.io/Alx-Portfolio_Project/contact.html">Contact</a></li>
         </ul>
     </nav>
 
@@ -25,8 +25,8 @@
         <div class="container">
             <h1>Welcome to FemzEin Grocery Store Management System</h1>
             <p>This is a web application that allows you to manage your grocery store online. You can add, edit, delete and view products, orders and customers. You can also generate reports and invoices for your business.</p>
-            <a href="manage-product.html" class="btn">View Products</a>
-            <a href="order.html" class="btn">View Orders</a>
+            <a href="https://femzein.github.io/Alx-Portfolio_Project/manage-product.html" class="btn">View Products</a>
+            <a href="https://femzein.github.io/Alx-Portfolio_Project/order.html" class="btn">View Orders</a>
         </div>
     </div>
 
