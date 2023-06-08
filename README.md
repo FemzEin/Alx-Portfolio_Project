@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,9 +11,9 @@
             <img src="logo.png" alt="Grocery Store Logo">
         </div>
         <ul class="menu">
-            <li><a href="[https://femzein.github.io/Alx-Portfolio_Project/index.html](https://github.com/FemzEin/Alx-Portfolio_Project/blob/main/grocery_store/ui/index.html)" class="active">Home</a></li>
-            <li><a href="[https://femzein.github.io/Alx-Portfolio_Project/](https://github.com/FemzEin/Alx-Portfolio_Project/blob/main/grocery_store/ui/manage-product.html)">Products</a></li>
-            <li><a href="[https://femzein.github.io/Alx-Portfolio_Project/](https://github.com/FemzEin/Alx-Portfolio_Project/blob/main/grocery_store/ui/order.html)">Orders</a></li>
+            <li><a href="https://github.com/FemzEin/Alx-Portfolio_Project/blob/main/grocery_store/ui/index.html" class="active">Home</a></li>
+            <li><a href="https://github.com/FemzEin/Alx-Portfolio_Project/blob/main/grocery_store/ui/manage-product.html">Products</a></li>
+            <li><a href="https://femzein.github.io/Alx-Portfolio_Project/github.com/FemzEin/Alx-Portfolio_Project/blob/main/grocery_store/ui/order.html">Orders</a></li>
             <li><a href="[https://femzein.github.io/Alx-Portfolio_Project/](https://github.com/FemzEin/Alx-Portfolio_Project/blob/main/grocery_store/ui/contact.html)">Contact</a></li>
         </ul>
     </nav>
@@ -27,7 +26,7 @@
         </div>
     </div>
     
-        © 2023 by FemzEin Grocery Store Management System. All rights reserved.
+        © 2023 by FemzEin.tech. All rights reserved.
     
 </body>
 </html>
