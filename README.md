@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FemzEin Grocery Store Management System</title>
+    FemzEin Grocery Store Management System
   
 </head>
 <body>
-    <!-- Navigation bar -->
     <nav>
         <div class="logo">
             <img src="logo.png" alt="Grocery Store Logo">
@@ -19,8 +18,6 @@
             <li><a href="https://femzein.github.io/Alx-Portfolio_Project/contact.html">Contact</a></li>
         </ul>
     </nav>
-
-    <!-- Landing page -->
     <div class="landing">
         <div class="container">
             <h1>Welcome to FemzEin Grocery Store Management System</h1>
@@ -29,10 +26,8 @@
             <a href="https://femzein.github.io/Alx-Portfolio_Project/order.html" class="btn">View Orders</a>
         </div>
     </div>
-
-    <!-- Footer -->
-    <footer>
-        <p>© 2023 by FemzEin Grocery Store Management System. All rights reserved.</p>
-    </footer>
+    
+        © 2023 by FemzEin Grocery Store Management System. All rights reserved.
+    
 </body>
 </html>
