@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
 </head>
-    <body>
     <div class="landing">
         <div class="container">
             <h1>Welcome to FemzEin Grocery Store Management System</h1>
@@ -22,6 +21,7 @@
     
         © 2023 by FemzEin.tech. All rights reserved.
     
-</body>
-    </html>
+
+        
+
 Note: App is still in development. Please Clone the repository on your local machine for a quick demo
