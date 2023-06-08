@@ -23,3 +23,4 @@
     
 </body>
     </html>
+Note: App is still in development. Please Clone the repository on your local machine for a quick demo
