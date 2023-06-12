@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 from flask import Flask, request, jsonify
 from sql_connection import get_sql_connection
-import mysql.connector
 import json
 
 import products_dao
@@ -63,5 +62,5 @@ def delete_product():
     return response
 
 if __name__ == "__main__":
-    print("Starting Python Flask Server For FemzEin Grocery Store Management System")
-    app.run(port=3306)
+    print("Starting Python Flask Server For Femzein Grocery Store Management System")
+    app.run(port=5000)
