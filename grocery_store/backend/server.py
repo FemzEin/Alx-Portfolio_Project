@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 from flask import Flask, request, jsonify
 from sql_connection import get_sql_connection
 import json
@@ -11,6 +12,7 @@ app = Flask(__name__)
 
 connection = get_sql_connection()
 
+# Route to retrieve unit of measure (UOM) data
 @app.route('/getUOM', methods=['GET'])
 def get_uom():
     response = uom_dao.get_uoms(connection)
@@ -18,6 +20,7 @@ def get_uom():
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
+# Route to retrieve all products
 @app.route('/getProducts', methods=['GET'])
 def get_products():
     response = products_dao.get_all_products(connection)
@@ -25,6 +28,7 @@ def get_products():
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
+# Route to insert a new product
 @app.route('/insertProduct', methods=['POST'])
 def insert_product():
     request_payload = json.loads(request.form['data'])
@@ -35,6 +39,7 @@ def insert_product():
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
+# Route to retrieve all orders
 @app.route('/getAllOrders', methods=['GET'])
 def get_all_orders():
     response = orders_dao.get_all_orders(connection)
@@ -42,6 +47,7 @@ def get_all_orders():
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
+# Route to insert a new order
 @app.route('/insertOrder', methods=['POST'])
 def insert_order():
     request_payload = json.loads(request.form['data'])
@@ -52,6 +58,7 @@ def insert_order():
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
+# Route to delete a product
 @app.route('/deleteProduct', methods=['POST'])
 def delete_product():
     return_id = products_dao.delete_product(connection, request.form['product_id'])
