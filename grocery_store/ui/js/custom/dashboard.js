@@ -13,7 +13,7 @@ $(function () {
                     '<td>'+ order.customer_name +'</td>'+
                     '<td>'+ order.total.toFixed(2) +' ₦(Naira)</td></tr>';
             });
-            table += '<tr><td colspan="3" style="text-align: end"><b>Total</b></td><td><b>'+ totalCost.toFixed(2) +' ₦(Naira)</b></td></tr>';
+            table += '<tr><td colspan="3" style="text-align: end"><b>Total Sales</b></td><td><b>'+ totalCost.toFixed(2) +' ₦(Naira)</b></td></tr>';
             $("table").find('tbody').empty().html(table);
         }
     });
