@@ -4,14 +4,6 @@
     <title> FemzEin Grocery Store </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <meta name="csrf-token" content="kmapods5wQ5L1hn7rcR9OPst7EsN0gC7SrHh3m9K"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,600,700">
-    <link media="all" type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
-    <link media="all" type="text/css" rel="stylesheet" href="css/style.css?v=1.0">
-    <link media="all" type="text/css" rel="stylesheet" href="css/sidebar-menu.css?v=1.0">
-    <link media="all" type="text/css" rel="stylesheet" href="css/custom.css?v=1.3.3">
 </head>
 <body>
 <nav>
@@ -56,10 +48,5 @@
                   </div>
                    </div>
                     </div>
-
-<script src="js/packages/jquery.min.js"></script>
-<script src="js/custom/common.js"></script>
-<script src="js/custom/manage-product.js"></script>
-<script src="js/packages/bootstrap.min.js"></script>
 </body>
 </html>
